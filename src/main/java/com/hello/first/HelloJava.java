@@ -1,6 +1,6 @@
 package com.hello.first;
 
-public class HelloJava implements Printer {
+public class HelloJava{
 	String name;
 	Printer printer;
 	
@@ -17,9 +17,8 @@ public class HelloJava implements Printer {
 	public String sayHello() {
 		return "Hello " + name;
 	}
-
-	@Override
-	public void print(String message) {
+	
+	public void print() {
 		// TODO Auto-generated method stub
 		this.printer.print(sayHello());
 	}
