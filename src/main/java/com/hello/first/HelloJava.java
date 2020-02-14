@@ -4,7 +4,7 @@ public class HelloJava{
 	String name;
 	Printer printer;
 	
-	public HelloJava() {}
+	public HelloJava() {}	 // construct
 	
 	public void setName(String name) {
 		this.name = name;
